@@ -10,7 +10,7 @@ header{
     width: 100vw;
     padding: .4em 5em .4em 5em;
     color: aliceblue;
-    background: #051937;
+    background: #252525;
 }
 .container{
     background-image: linear-gradient(to left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
@@ -70,13 +70,14 @@ input,button{
     border: none;
 }
 input{
-    min-width: auto;
-    max-width: 300px;
+    width: 80%;
     background: #252525;
     color: aliceblue;
     border: 1px solid white;
 }
 
 button{
+    width: 20%;
+    float: right;
     background: #00bf72;
 }
