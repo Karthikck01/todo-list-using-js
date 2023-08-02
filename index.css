@@ -27,6 +27,7 @@ header{
     padding: 2em;
     border-radius: 10px;
     min-height: 300px;
+    max-width: 600px;
 }
 #todo h1{
     color: white;
@@ -69,7 +70,8 @@ input,button{
     border: none;
 }
 input{
-    width: 300px;
+    min-width: auto;
+    max-width: 300px;
     background: #252525;
     color: aliceblue;
     border: 1px solid white;
